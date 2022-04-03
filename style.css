@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(77, 1, 255);
+  font-family: "Poppins", sans-serif;
+}
+.title {
+  margin: 2rem 0;
+  color: aliceblue;
+}
+.cards-container {
+  width: 90%;
+  max-width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin: auto;
+}
+.card {
+  padding: 2rem 0.8rem;
+  margin: 0.5rem;
+  background: rgb(0, 0, 48);
+  color: aliceblue;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 52%);
+}
+.card-details {
+  margin: 1rem 0;
+}
+.card-items-list {
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}
+li {
+  margin: 0.7rem 0;
+}
+.card-btn button {
+  margin: 1rem 0;
+  padding: 0.7rem 2.5rem;
+  background-color: transparent;
+  color: aliceblue;
+  border: 1px solid rgb(148, 0, 0);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.card-btn button:hover {
+  background-color: rgb(87, 87, 255);
+  border: none;
+}
